@@ -31,6 +31,9 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+#top level, capture all pages
+    'mysite',
+#component leve, business logics
     'polls.apps.PollsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
